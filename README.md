@@ -17,12 +17,16 @@ This document is based on document from: https://towardsdatascience.com/pre-trai
 
 Start with the Google colab: https://colab.research.google.com/github/Ardevop-sk/sk-bert-ner/blob/master/SK_NER_BERT.ipynb
 
-Dataset:
+## Dataset:
 NumDocs: 710
+
 Train: 510
+
 Dev: 100
+
 Test: 100
 
+```
 2020-01-25 22:31:04,674 :  -------------------------
 2020-01-25 22:31:04,675 :  Entity Organizacia
 2020-01-25 22:31:04,676 :  TP: 420 FP: 5 FN: 10
@@ -65,3 +69,4 @@ Test: 100
 2020-01-25 22:31:04,757 :  Precision: 1.0
 2020-01-25 22:31:04,759 :  Recall: 0.9938524590163934
 2020-01-25 22:31:04,762 :  F1: 0.9969167523124358
+```
