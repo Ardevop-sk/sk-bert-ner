@@ -1,5 +1,5 @@
 # Training BERT for Named Entity Recognition in Slovak language
-In this experiment, we will be training a state-of-the-art Natural Language Understanding model [BERT](https://arxiv.org/abs/1810.04805.) on manually annotated korpus of Court decisions from https://ru.justice.sk/ data using Google Cloud infrastructure.
+In this experiment, we will be training a state-of-the-art Natural Language Understanding model [BERT](https://arxiv.org/abs/1810.04805.) on manually annotated corpus of Court decisions from https://ru.justice.sk/ data using Google Cloud infrastructure.
 
 This guide covers all stages of the procedure, including:
 
@@ -7,9 +7,10 @@ This guide covers all stages of the procedure, including:
 2. Getting the data
 3. Preparing models
 4. Training model on cloud GPU
-5. Downloading model to GCS
-6. Serving BERT model for NER
-7. Testing the services
+5. Evaluate the results
+6. Uploading model to GCS (optional)
+7. Serving BERT model for NER as a Service
+8. Testing the services
 
 For persistent storage of training data and model, you will require a Google Cloud Storage bucket. 
 Please follow the [Google Cloud TPU quickstart](https://cloud.google.com/tpu/docs/quickstart) to create a GCP account and GCS bucket. New Google Cloud users have [$300 free credit](https://cloud.google.com/free/) to get started with any GCP product.
